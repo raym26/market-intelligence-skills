@@ -33,6 +33,19 @@ claude
 "Analyze Micron earnings"
 ```
 
+## Prerequisites
+
+- Claude Code installed ([download here](https://www.anthropic.com/claude-code))
+- Claude Pro, Team, or Enterprise subscription (Skills not available on free tier)
+- Python 3.8+ (for automation scripts)
+
+## Security
+
+This skill includes Python scripts for automation. Always review code before running:
+- `scripts/scrape_transcript.py` - Fetches earnings transcripts
+- `scripts/extract_financials.py` - Parses PDFs
+- etc.
+
 ## Vision
 
 Building toward autonomous market intelligence - starting with proven methodologies, scaling to full "hireable" MI analyst capability.

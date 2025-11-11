@@ -20,6 +20,10 @@ See [skills/earnings-analysis-skill/](skills/earnings-analysis-skill/) for detai
 
 ## Installation
 ```bash
+# Clone your GitHub repo
+git clone https://github.com/raym26/market-intelligence-skills.git
+cd market-intelligence-skills
+
 # Install the skill
 cp -r skills/earnings-analysis-skill ~/.claude/skills/earnings-analysis-memory-semiconductors
 
@@ -32,6 +36,18 @@ pip install -r skills/earnings-analysis-skill/requirements.txt --break-system-pa
 claude
 "Analyze Micron earnings"
 ```
+## Prerequisites
+
+- Claude Code installed ([download here](https://www.anthropic.com/claude-code))
+- Claude Pro, Team, or Enterprise subscription (Skills not available on free tier)
+- Python 3.8+ (for automation scripts)
+
+## Security
+
+This skill includes Python scripts for automation. Always review code before running:
+- `scripts/scrape_transcript.py` - Fetches earnings transcripts
+- `scripts/extract_financials.py` - Parses PDFs
+- etc.
 
 ## Prerequisites
 

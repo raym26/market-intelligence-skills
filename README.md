@@ -20,6 +20,10 @@ See [skills/earnings-analysis-skill/](skills/earnings-analysis-skill/) for detai
 
 ## Installation
 ```bash
+# Clone your GitHub repo
+git clone https://github.com/raym26/market-intelligence-skills.git
+cd market-intelligence-skills
+
 # Install the skill
 cp -r skills/earnings-analysis-skill ~/.claude/skills/earnings-analysis-memory-semiconductors
 

@@ -1,0 +1,27 @@
+# Python dependencies for Competitor Battle Card Skill
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data visualization
+matplotlib>=3.7.0
+plotly>=5.14.0
+
+# Web scraping and data collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# PDF processing
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Financial data
+yfinance>=0.2.0
+
+# Date/time handling
+python-dateutil>=2.8.0
+
+# Optional: For enhanced web scraping
+# selenium>=4.10.0  # Uncomment if you need browser automation
+# lxml>=4.9.0  # Uncomment for faster HTML parsing

@@ -1,0 +1,32 @@
+# Micron Q1 FY2026 Revenue Flow Data
+# Quarter ended: November 27, 2025
+# Total Revenue: $13.64B
+# Source: Micron Investor Relations Q1 FY26 Earnings
+# ⚠️ End market allocations are estimates - please verify against official sources
+#
+source,target,value
+#
+# Layer 1: Total Revenue to Segments
+Total Revenue,DRAM,10.8
+Total Revenue,NAND,2.7
+Total Revenue,Other,0.14
+#
+# Layer 2: DRAM to End Markets
+# Based on Business Unit breakdown and product mix
+# Cloud Memory ($5.3B) + Core Data Center ($2.4B) = $7.7B to AI/Datacenter
+DRAM,AI/Datacenter,7.7
+DRAM,Mobile,2.0
+DRAM,PC,0.7
+DRAM,Automotive,0.3
+DRAM,Enterprise,0.1
+#
+# Layer 2: NAND to End Markets
+# Data center NAND exceeded $1B in Q1
+NAND,AI/Datacenter,1.2
+NAND,Mobile,0.8
+NAND,PC,0.4
+NAND,Enterprise,0.2
+NAND,Automotive,0.1
+#
+# Layer 2: Other to End Markets
+Other,Enterprise,0.14

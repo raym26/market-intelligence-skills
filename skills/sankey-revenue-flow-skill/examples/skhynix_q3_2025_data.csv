@@ -1,0 +1,34 @@
+# SK Hynix Q3 2025 Revenue Flow Data
+# Quarter: Q3 2025 (October 2025)
+# Total Revenue: KRW 24.45 trillion (~$18.3B USD)
+# Source: SK Hynix Q3 2025 Financial Results
+# ⚠️ End market allocations are estimates - please verify against official sources
+#
+source,target,value
+#
+# Layer 1: Total Revenue to Segments
+# DRAM: $13.7B (75%), NAND: estimated remainder
+Total Revenue,DRAM,13.7
+Total Revenue,NAND,4.5
+Total Revenue,Other,0.1
+#
+# Layer 2: DRAM to End Markets
+# HBM alone = 40% of DRAM = ~$5.5B (all AI/Datacenter)
+# Server DDR5 strong, total AI/Datacenter estimated at $9B
+DRAM,AI/Datacenter,9.0
+DRAM,Mobile,3.0
+DRAM,PC,1.2
+DRAM,Enterprise,0.3
+DRAM,Automotive,0.2
+#
+# Layer 2: NAND to End Markets
+# Enterprise SSD showed double-digit growth
+# AI server eSSD expanding portion
+NAND,AI/Datacenter,1.8
+NAND,Enterprise,1.5
+NAND,Mobile,0.8
+NAND,PC,0.3
+NAND,Consumer,0.1
+#
+# Layer 2: Other
+Other,Industrial,0.1

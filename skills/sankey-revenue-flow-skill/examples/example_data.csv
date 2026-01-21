@@ -1,0 +1,32 @@
+q# Micron Q2 FY25 Revenue Flow Data (Estimated)
+# Total Revenue: ~$8.7B
+# Source: Micron Q2 FY25 Earnings Report
+#
+source,target,value
+#
+# Layer 1: Total Revenue to Segments
+Total Revenue,DRAM,6.75
+Total Revenue,NAND,1.85
+Total Revenue,Emerging,0.10
+#
+# Layer 2: DRAM to End Markets
+# DRAM Revenue: $6.75B
+# AI/Datacenter includes HBM and Server DRAM
+DRAM,AI/Datacenter,3.50
+DRAM,Mobile,1.60
+DRAM,Enterprise,0.85
+DRAM,PC,0.65
+DRAM,Automotive,0.15
+#
+# Layer 2: NAND to End Markets
+# NAND Revenue: $1.85B
+NAND,AI/Datacenter,0.70
+NAND,Mobile,0.50
+NAND,Enterprise,0.35
+NAND,PC,0.25
+NAND,Automotive,0.05
+#
+# Layer 2: Emerging to End Markets
+# Emerging Revenue: $0.10B (CXL, other)
+Emerging,AI/Datacenter,0.08
+Emerging,Industrial,0.02

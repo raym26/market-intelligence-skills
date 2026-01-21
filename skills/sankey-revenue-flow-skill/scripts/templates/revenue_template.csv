@@ -1,0 +1,37 @@
+# Revenue Flow Template for Sankey Diagram
+# Fill in revenue values in billions USD
+# Lines starting with # are comments and will be ignored
+#
+source,target,value
+#
+# Layer 1: Total Revenue to Segments
+# Enter your company's revenue breakdown by product segment
+Total Revenue,DRAM,0.0
+Total Revenue,NAND,0.0
+Total Revenue,Emerging,0.0
+#
+# Layer 2: DRAM to End Markets
+# Break down DRAM revenue by customer segment
+DRAM,AI/Datacenter,0.0
+DRAM,Mobile,0.0
+DRAM,Enterprise,0.0
+DRAM,PC,0.0
+DRAM,Automotive,0.0
+#
+# Layer 2: NAND to End Markets
+# Break down NAND revenue by customer segment
+NAND,AI/Datacenter,0.0
+NAND,Mobile,0.0
+NAND,Enterprise,0.0
+NAND,PC,0.0
+NAND,Automotive,0.0
+#
+# Layer 2: Emerging to End Markets (optional)
+# Uncomment if you have emerging memory revenue
+# Emerging,AI/Datacenter,0.0
+# Emerging,Industrial,0.0
+#
+# Layer 3: End Markets to Profitability (optional)
+# Uncomment to add profitability breakdown
+# AI/Datacenter,Gross Profit,0.0
+# AI/Datacenter,COGS,0.0

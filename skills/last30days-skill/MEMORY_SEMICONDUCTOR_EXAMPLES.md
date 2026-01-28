@@ -1,5 +1,7 @@
 # Memory Semiconductor Use Cases for /last30days
 
+> **Note:** /last30days is a third-party skill created by [@mvanhorn](https://github.com/mvanhorn/last30days-skill). This document provides memory semiconductor-specific examples and integration guidance.
+
 This skill is particularly useful for staying current on memory semiconductor market developments between earnings cycles.
 
 ## Typical Use Cases

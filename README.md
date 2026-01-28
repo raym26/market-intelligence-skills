@@ -55,6 +55,8 @@ See [skills/sankey-revenue-flow-skill/](skills/sankey-revenue-flow-skill/) for d
 
 Researches topics from the past 30 days across Reddit, X, and the web to stay current between earnings cycles.
 
+**Third-party skill by [@mvanhorn](https://github.com/mvanhorn)** | [Original repo](https://github.com/mvanhorn/last30days-skill)
+
 **Features:**
 - Reddit and X (Twitter) research with engagement metrics
 - Web search fallback (works without API keys)
